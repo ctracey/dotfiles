@@ -29,3 +29,6 @@ alias bo="bundle open"
 if [ -f `brew --prefix`/etc/bash_completion ]; then
   . `brew --prefix`/etc/bash_completion
 fi
+
+# sublime text alias
+alias st='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"'
