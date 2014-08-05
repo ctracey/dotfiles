@@ -82,9 +82,8 @@ map <Leader>n :NERDTree<CR>
 map <leader>r :NERDTreeFind<cr>
 
 " Color scheme
-set background=dark
 " colorscheme solarized
-colorscheme tomorrow
+colorscheme tomorrow-night-dark
 
 " Change status bar and vertical bar colors
 highlight VertSplit ctermbg=16 guibg=#000000
