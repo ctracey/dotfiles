@@ -104,6 +104,7 @@ au InsertLeave * match ExtraWhiteSpace /\s\+$/
 let g:ctrlp_map = '<Leader>f'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_max_files=0
 
 " let g:ctrlp_user_command = 'find %s -type f'
 map <Leader>b :CtrlPMRU<CR>
