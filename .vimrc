@@ -85,14 +85,6 @@ map <leader>r :NERDTreeFind<cr>
 " colorscheme solarized
 colorscheme tomorrow-night-dark
 
-" Change status bar and vertical bar colors
-highlight VertSplit ctermbg=16 guibg=#000000
-highlight VertSplit ctermfg=16 guifg=#000000
-" highlight StatusLine ctermfg=16 guifg=#000000
-" highlight StatusLine ctermbg=16 guibg=#000000
-highlight StatusLineNC ctermbg=16
-highlight StatusLineNC ctermfg=16
-
 " Highligh trailing white spaces on non-insert mode
 highlight ExtraWhitespace ctermbg=red guibg=red
 au ColorScheme * highlight ExtraWhitespace guibg=red
