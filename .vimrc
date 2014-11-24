@@ -115,3 +115,7 @@ map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
+
+" add ruby debugger breakpoint
+map <Leader>d Irequire 'pry-rails'; binding.pry
+map <Leader>D Irequire 'byebug'; byebug
