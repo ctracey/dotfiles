@@ -1,2 +1,7 @@
+# aws envs
+export AWS_CREDENTIAL_FILE=~/.aws_logo_credentials
+export AWS_PRIVATE_KEY_NAME=christracey
+export AWS_PRIVATE_KEY=/Users/tracer/.ssh/id_rsa
+
 # docker envs
 export DOCKER_HOST=tcp://localhost:2375
