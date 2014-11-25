@@ -5,3 +5,6 @@ export AWS_PRIVATE_KEY=/Users/tracer/.ssh/id_rsa
 
 # docker envs
 export DOCKER_HOST=tcp://localhost:2375
+
+# enable 99 switcher
+source ~/dotfiles/99_switcher.sh
