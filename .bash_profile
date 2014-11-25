@@ -1,5 +1,5 @@
 source ~/.bashrc
-source ~/.bash_99
+source .bash_99
 
 # path
 export PATH="/usr/local/bin:$PATH:~/bin"
