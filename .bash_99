@@ -8,3 +8,6 @@ export DOCKER_HOST=tcp://localhost:2375
 
 # enable 99 switcher
 source ~/dotfiles/scripts/99_switcher.sh
+
+# dev shortcuts
+source ~/dotfiles/scripts/99_dev.sh
