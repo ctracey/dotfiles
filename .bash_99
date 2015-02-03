@@ -7,4 +7,4 @@ export AWS_PRIVATE_KEY=/Users/tracer/.ssh/id_rsa
 export DOCKER_HOST=tcp://localhost:2375
 
 # enable 99 switcher
-source ~/dotfiles/99_switcher.sh
+source ~/dotfiles/scripts/99_switcher.sh
