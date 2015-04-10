@@ -26,6 +26,9 @@ export EDITOR="vim"
 alias be="bundle exec"
 alias bo="bundle open"
 
+#git
+alias gito="~/scripts/opengit.sh"
+
 # bash completion (required for __git_ps1 to work)
 if [ -f `brew --prefix`/etc/bash_completion ]; then
   . `brew --prefix`/etc/bash_completion
