@@ -28,6 +28,7 @@ alias bo="bundle open"
 
 #dev tools
 alias devo="~/scripts/devo.sh"
+alias git="hub"
 
 # bash completion (required for __git_ps1 to work)
 if [ -f `brew --prefix`/etc/bash_completion ]; then
@@ -35,4 +36,11 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
 fi
 
 # sublime text alias
-alias st='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"'
+alias sto='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+
+# stree
+alias stree='open -a SourceTree .'
+
+export GOPATH=~/go
+export PATH=$PATH:~/go/bin
+# sublime text alias
