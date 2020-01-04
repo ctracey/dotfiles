@@ -4,6 +4,7 @@ source ~/dotfiles/.bash_99
 # path
 export PATH="/usr/local/bin:$PATH:~/bin"
 export PATH=$PATH:"/usr/local/sbin"
+export PATH=$PATH:"~/scripts"
 
 # color
 export CLICOLOR=1
@@ -29,6 +30,7 @@ alias bo="bundle open"
 #dev tools
 alias devo="~/scripts/devo.sh"
 alias git="hub"
+alias gitmessages="git log --pretty=oneline --abbrev-commit"
 
 # bash completion (required for __git_ps1 to work)
 if [ -f `brew --prefix`/etc/bash_completion ]; then
@@ -36,11 +38,15 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
 fi
 
 # sublime text alias
-alias sto='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+alias st='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 
 # stree
 alias stree='open -a SourceTree .'
 
 export GOPATH=~/go
 export PATH=$PATH:~/go/bin
+
+# aws
+export AWS_CREDENTIAL_FILE=/Users/tracer/.aws/config
+
 # sublime text alias
